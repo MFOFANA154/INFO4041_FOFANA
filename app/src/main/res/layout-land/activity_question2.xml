@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="@string/q2fr"
+        android:layout_width="397dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/q1"
+        android:gravity="center"
+        android:layout_weight="0.18" />
+
+    <RadioButton
+        android:text="Rafael Nadal"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioButton3"
+        android:layout_above="@+id/btn_quit4"
+        android:layout_alignLeft="@+id/radioButton2"
+        android:layout_alignStart="@+id/radioButton2"
+        android:gravity="center_vertical"
+        android:layout_weight="0.05" />
+
+    <RadioButton
+        android:text="Andy Murray"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/radioButton"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <RadioButton
+        android:text="Novak Djokovic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/radioButton2"
+        android:layout_below="@+id/radioButton"
+        android:layout_alignLeft="@+id/radioButton"
+        android:layout_alignStart="@+id/radioButton" />
+
+    <Button
+        android:text="@string/quitfr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_quit4"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</LinearLayout>
